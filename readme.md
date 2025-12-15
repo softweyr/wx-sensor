@@ -18,7 +18,7 @@ Replace the placeholder values with your actual network name, password, and the 
 
 You will need a MicroPython library for the BME680 sensor. The official Adafruit MicroPython BME680 library is commonly used.
 
-Download the driver file (usually named `bme680.py` or similar) from a reliable source like the Adafruit MicroPython bundle or GitHub.
+Download the driver file (usually named `bme680.py` or similar) from a reliable source like the Adafruit MicroPython bundle or GitHub, i.e. [BME680-Micropython](https://github.com/robert-hh/BME680-Micropython/tree/master)
 
 Upload this `bme680.py` file to the root of your Pico W's filesystem alongside `main.py` and `config.json`.
 
