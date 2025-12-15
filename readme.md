@@ -1,3 +1,15 @@
+# Raspberry Pi Pico W weather sensor
+
+That's a great project! This requires three main files:
+
+1. `main.py`: The main application logic for sampling the sensor and posting the data.
+
+2. `config.json`: The configuration file for Wi-Fi credentials and the API endpoint.
+
+3. `bme680.py`: The library to communicate with the BME680 sensor (you'll need to download a MicroPython driver).
+
+# Source Files
+
 1. `config.json`
 
 Replace the placeholder values with your actual network name, password, and the URL where you want to POST the data.
@@ -14,7 +26,7 @@ Upload this `bme680.py` file to the root of your Pico W's filesystem alongside `
 
 This file handles the configuration loading, Wi-Fi connection, sensor initialization, data sampling, and the REST POST request.
 
-## Setup Instructions
+# Setup Instructions
 
 Dependencies: Before running, you must install the urequests library for MicroPython, which is not built-in.
 
