@@ -1,0 +1,5 @@
+{
+    "wifi_ssid": "YOUR_WIFI_NETWORK_NAME",
+    "wifi_password": "YOUR_WIFI_PASSWORD",
+    "api_base_url": "http://your-web-service.com/api/v1/sensor_data"
+}
